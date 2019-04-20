@@ -1,0 +1,20 @@
+{
+  "name": "ecuTeachersAPI",
+  "version": "1.0.0",
+  "description": "API using mongodb and express for carStore front-end",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Gustavo Ruiz",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.4.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
