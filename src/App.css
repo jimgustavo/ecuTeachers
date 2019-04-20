@@ -22,3 +22,132 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  color: black;
+  text-align: center;
+  background-color: dodgerblue;
+}
+.article {
+  text-align: left;
+}
+.containerAssessment {
+  display: grid;
+  max-width: 1020px;
+  margin: 0 auto;
+  border: 1px solid white;
+}
+.containerAssessment div {
+  padding: 150px;
+  border: 1px solid white;
+}
+
+.reading a {
+  color: white;
+}
+.writing a {
+  color: white;
+}
+.listening a {
+  color: white;
+}
+.speaking a {
+  color: white;
+}
+
+.containerQuiz {
+  display: grid;
+  grid-template-columns: 1800px auto;
+  max-width: 1280px;
+  margin: auto;
+  margin-top: 10px;
+  max-height: 2000px;
+}
+
+.containerPassage {
+  display: grid;
+  grid-template-columns: 650px auto;
+  max-width: 1020px;
+  margin: 30px;
+  margin-top: 10px;
+}
+.containerPassage div {
+  padding: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  width: 100%;
+}
+.passage {
+  color: black;
+}
+.topic {
+  text-align: right;
+  color: white;
+}
+
+.containerQuestions {
+  display: grid;
+  grid-template-columns: 600px auto;
+  max-width: 1020px;
+  margin: 700px;
+  margin-top: -210px;
+}
+.containerQuestions div {
+  padding: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  width: 100%;
+}
+
+.SignIn {
+  width: 100%;
+  height: 800px;
+}
+.emailIn {
+  width: 350px;
+  height: 20px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.passwordIn {
+  width: 350px;
+  height: 20px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.username {
+  width: 350px;
+  height: 20px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.email {
+  width: 350px;
+  height: 20px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.password {
+  width: 350px;
+  height: 20px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.buttonSignup {
+  width: 200px;
+  height: 30px;
+  color: dodgerblue;
+  font-style: initial;
+}
+.buttonLogIn {
+  width: 200px;
+  height: 30px;
+  color: dodgerblue;
+  font-style: initial;
+}
+
+.SignUp {
+  background-color: dodgerblue;
+  width: 100%;
+  height: 800px;
+}
